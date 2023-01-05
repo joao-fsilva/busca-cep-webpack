@@ -1,0 +1,37 @@
+<%- include inc/header.ejs %>
+
+<h1 class="text-center">Buscar CEP</h1>
+
+<form class="form">
+    <div class="form-group">
+        <label for="cep">Cep</label>
+        <input type="text" id="cep" class="form-control" required/>
+    </div>
+
+    <button
+            id="botao-buscar"
+            type="button"
+            class="btn btn-primary">
+        Buscar
+    </button>
+    <a
+            href="creditos.html"
+            id="link-creditos"
+            type="button"
+            class="btn btn-success">
+        Créditos
+    </a>
+</form>
+
+<h2>Resultado:</h2>
+
+<p>Bairro: <span id="bairro"></span></p>
+<p>Cep: <span id="cepResultado"></span></p>
+<p>Complemento: <span id="complemento"></span></p>
+<p>DDD: <span id="ddd"></span></p>
+<p>Localidade: <span id="localidade"></span></p>
+<p>Logradouro: <span id="logradouro"></span></p>
+<p>UF: <span id="uf"></span></p>
+
+
+<%- include inc/footer.ejs %>
