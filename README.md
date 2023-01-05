@@ -10,8 +10,8 @@
 
 ### Detalhes
 
-* [EJS](https://ejs.co/) para a criação de templates, que estão localizados dentro da pasta views.
-* O build final será realizado na pasta raiz do projeto.
+* Utiliza [EJS](https://ejs.co/) para a criação de templates, que estão localizados dentro da pasta views.
+* O build final é realizado na pasta raiz do projeto.
 * A aplicação roda na porta 3000 por padrão. É possível alterar no arquivo webpack.config.js.
 ### Comandos úteis
 
