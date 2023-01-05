@@ -7,7 +7,7 @@ export default class IndexController
     async find() {
         document.getElementById('botao-buscar').addEventListener("click", async ev => {
             let cep = document.getElementById('cep').value
-            cep = cep.replace(/\D/, '').trim()
+            cep = cep.replace(/\D+/, '').trim()
 
             if (cep === '') {
                 alert('CEP inválido.')
